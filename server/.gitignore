@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+client/.env # In case you ever put one in client, though typically not
+server/.env
+
+# Build folders
+build/
+dist/
+.parcel-cache/ # For Parcel, if you ever use it
